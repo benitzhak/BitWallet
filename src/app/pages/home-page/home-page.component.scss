@@ -1,0 +1,44 @@
+.home-page {
+    background-color: #18232ba8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .live {
+        background-color: #469be0;
+        color: rgb(201, 188, 188);
+        font-size: 0.6rem;
+        font-weight: bold;
+        padding: 0 3px;
+        border-radius: 30px;
+    }
+    .btc-rate {
+        font-size: 1.8rem;
+    }
+    .title {
+        color: rgba(128, 128, 128, 0.699);
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .user-info {
+        width: 50%;
+    }
+    h2 {
+        border-bottom: 1px solid rgba(68, 65, 65, 0.411);
+        padding: 10px;
+    }
+    .user-currncy-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 0 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home-page {
+        .user-info {
+            width: 100%;
+        }
+    }
+}

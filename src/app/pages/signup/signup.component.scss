@@ -1,0 +1,39 @@
+.signup {
+    background-color: #26364371;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    img {
+        width: 8rem;
+        margin-top: 5rem;
+        animation: rotation 8s infinite linear;
+    }
+    @keyframes rotation {
+        from {
+            transform: rotatey(0deg);
+        }
+        to {
+            transform: rotatey(359deg);
+        }
+    }
+    input {
+        background-color: #0b1217ce;
+        border: none;
+        padding: 10px;
+        color: rgb(201, 188, 188);
+        &:focus {
+            outline: none;
+        }
+    }
+    button {
+        cursor: pointer;
+        background-color: #ED4F71;
+        border: none;
+        color: blanchedalmond;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+    }
+}

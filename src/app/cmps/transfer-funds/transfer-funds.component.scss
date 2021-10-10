@@ -1,0 +1,22 @@
+.transfer-funds {
+    display: flex;
+    margin: 2rem 0;
+    input {
+        background-color: #0b1217ce;
+        border: none;
+        padding: 10px;
+        color: rgb(201, 188, 188);
+        &:focus {
+            outline: none;
+        }
+    }
+    .transfer-btn {
+        cursor: pointer;
+        background-color: #ED4F71;
+        border: none;
+        color: blanchedalmond;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+    }
+}

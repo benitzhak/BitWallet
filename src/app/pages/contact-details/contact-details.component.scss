@@ -1,0 +1,51 @@
+.contact-details {
+    background-color: #26364371;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    .details-move-list {
+        width: 100%;
+    }
+    .contact-details-container {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        background-color: #2e43557e;
+    }
+    .contact-details-actions {
+        background-color: #0b1217ce;
+        padding: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    img {
+        width: 10rem;
+        border-radius: 5rem;
+        background-color: #fff;
+        margin-top: 5rem;
+    }
+    .contact-name {
+        color: #ED4F71;
+        font-size: 2rem;
+    }
+    .contact-phone {
+        font-size: 1.3rem;
+    }
+    .keeper {
+        height: 15rem;
+    }
+    .delete-btn {
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 0.8rem;
+        background-color: #ED4F71;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+}

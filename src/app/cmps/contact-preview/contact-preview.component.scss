@@ -1,0 +1,23 @@
+.contact-prev {
+    background-color: #26364371;
+    padding: 20px;
+    border-bottom: 1px solid rgba(68, 65, 65, 0.411);
+    width: 20rem;
+    .contact-prev-container {
+        display: flex;
+        gap: 10px;
+    }
+    .avatar-icon {
+        img {
+            width: 50px;
+            border-radius: 30px;
+            background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contact-prev {
+        width: 100%;
+    }
+}

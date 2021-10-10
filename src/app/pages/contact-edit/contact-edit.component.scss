@@ -1,0 +1,54 @@
+.contact-edit {
+    background-color: #26364371;
+    background-attachment: scroll;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .contact-edit-container {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .edit-back {
+        background-color: #0b1217ce;
+        padding: 0.8rem;
+        width: 100%;
+    }
+    input {
+        background-color: #0b1217ce;
+        border: none;
+        padding: 10px;
+        width: 20rem;
+        color: rgb(201, 188, 188);
+        margin-bottom: 0.5rem;
+        border-radius: 5px;
+    }
+    img {
+        width: 10rem;
+        border-radius: 5rem;
+        background-color: #fff;
+        margin: 2rem 0;
+    }
+    button {
+        cursor: pointer;
+        padding: 0.8rem 1.5rem;
+        background-color: #ED4F71;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contact-edit {
+        justify-content: unset;
+        .contact-edit-container {
+            width: 100%;
+        }
+        button {
+            margin-right: 27px;
+        }
+    }
+}

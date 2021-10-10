@@ -1,0 +1,20 @@
+<section class="contact-details" *ngIf="contact">
+    <div class="contact-details-container">
+        <div class="contact-details-actions">
+            <a routerLink="/contact">
+                Back
+            </a>
+            <a [routerLink]="['/edit',contact._id]">
+                Edit
+            </a>
+        </div>
+        <img src="./assets/imgs/black-white-avatar.png" alt="">
+        <p class="contact-name">{{contact.name}}</p>
+        <p class="contact-phone">{{contact.phone}}</p>
+        <p>{{contact.email}}</p>
+        <app-transfer-funds [contact]="contact"></app-transfer-funds>
+        <app-move-list class="details-move-list" [contact]="contact"></app-move-list>
+        <div class="keeper"></div>
+        <button class="delete-btn" (click)="onRemoveContact()">Delete Contact</button>
+    </div>
+</section>

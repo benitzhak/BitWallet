@@ -1,0 +1,9 @@
+<section>
+    <h3>♺ {{title}}</h3>
+    <div class="move-list" *ngFor="let move of moves">
+        <p>To {{move.to}}</p>
+        <p><span class="green"> ₿ {{move.amount}}</span><span class="dark-blue"> | $ {{move.rate}}</span></p>
+        <p>status: <span class="light-blue">aprrove</span></p>
+        <p class="dark-blue"> {{move.at | date:'short'}}</p>
+    </div>
+</section>
